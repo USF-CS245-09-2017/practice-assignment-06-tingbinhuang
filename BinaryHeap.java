@@ -1,5 +1,3 @@
-
-
 /**
  * 
  * This is BinaryHeap class for practice assignment 6 from CS 245 section I.
@@ -14,7 +12,6 @@ public class BinaryHeap {
 	private int current_size;
 
 	public BinaryHeap() {
-//		size = 100010;
 		size = 10;
 		data = new int[size];
 		current_size = 0;
